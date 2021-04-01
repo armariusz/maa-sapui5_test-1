@@ -13,7 +13,7 @@ sap.ui.define([
             };
          var oModel = new JSONModel(oData);
          this.getView().setModel(oModel);
-
+//test
          var i18nModel = new ResourceModel({
             bundleName: "sap.ui.demo.walkthrough.i18n.i18n",
             supportedLocales: [""],
